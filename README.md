@@ -15,8 +15,8 @@
 
 #### Tests 
 1) tests run automatically when the docker container is run
-2) Running the tests manually
-    give the file test.sh executable permissions by running the command chmod u+x test.sh
+2) Running the tests manually.
+... give the file test.sh executable permissions by running the command chmod u+x test.sh
     Now run ./test.sh
 
 
