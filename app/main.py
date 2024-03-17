@@ -54,7 +54,6 @@ def calculate_cashflow(start_date, type="monthly"):
     if data.empty:
         return data
     # calculate cashflow
-    print(data[['Net_Income', 'Depreciation',]])
     data["cashflow"] = (
         data["Net_Income"]
         + data["Depreciation"]
